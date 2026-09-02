@@ -1,0 +1,43 @@
+Ingresar:
+
+
+a) [Número de equipo] Nombre de equipo y nombre del proyecto
+b) Integrantes (Deben poner sus responsabilidades y qué tendrán asignados dentro del proyecto)
+c) Responder las preguntas que se dejaron asignadas y de las cuáles recibieron retroalimentación, las cuales son las siguientes:
+
+1. Propuesta y usuario (el "qué" y a "quién" va dirigido, y el "por qué" es necesario o útil su proyecto)
+¿Qué problema específico resuelve su proyecto? (no "un sistema de IA para X", sino el problema real detrás que resolverán, lo más claro posible). 
+¿Quién es el usuario final? ¿Ustedes mismos, una empresa, otros estudiantes? Pueden ser más de uno, es decir, pueden haber más de un tipo de usuario (quien da la información y quien la consume)
+Qué proyectos (software, plataformas, páginas, aplicaciones, etc) se podrían parecer al suyo? En qué se diferencían de esos proyectos? (Puede ser simplemente que no hay uno orientado a cierto sector o nuestra ciudad).
+2. Arquitectura y herramientas (el "cómo")
+¿Qué tipo(s) de IA usarán, (LLM, visión, voz, agentes, generativa)?
+¿Van a usar una API en línea, un modelo local open source en alguna de sus computadoras, servidor para alojar páginas, apliación móvil, etc. ¿Por qué esa decisión?
+¿Qué backend, frontend y base de datos usarán, y por qué esas y no otras?
+¿Qué parte del proyecto es la más riesgosa técnicamente — la que no saben todavía si van a poder resolver?
+¿Cómo van a probar que su sistema funciona de verdad, no solo que "corre"? Tomarán datos reales? simularán una base de datos para probar la idea conceptual?
+3. Alcance y entregables
+Si solo tuvieran el tiempo justo, ¿cuál es la versión mínima de su proyecto que igual demuestra que funciona? Es decir, funcionalmente qué debería hacer mínimamente.
+¿Qué van a entregar exactamente al final? (código, documentación, demo en vivo, video, etc.)
+Qué métricas mínimas van a definir para saber si el proyecto logró su primera etapa de desarrollo? Estos serían los entregables mínimos.
+¿Qué parte es "extra" — deseable pero no crítica — si les sobra tiempo? Estos son los entregables opcinoales adicionales
+
+USEN ESTE FORMATO:
+
+-------1. NOMBRE DEL EQUIPO 1 - PROYECTO 1----------
+Integrante 1 - usuario en github
+Responsabilidades dentro del equipo:
+Herramientas, lenguajes de programación, módulos de los que se hará cargo.
+...
+Integrante n - usuario en github
+Responsabilidades dentro del equipo:
+Herramientas, lenguajes de programación, módulos de los que se hará cargo.
+
+1. Propuesta general
+...
+2. Arquitectra y herramientas
+...
+4. Alcances
+
+
+-------2. NOMBRE DEL EQUIPO 2 - PROYECTO 2----------
+...
