@@ -23,20 +23,60 @@ Qué métricas mínimas van a definir para saber si el proyecto logró su primer
 
 USEN ESTE FORMATO:
 
--------1. NOMBRE DEL EQUIPO 1 - PROYECTO 1----------
-Integrante 1 - usuario en github
-Responsabilidades dentro del equipo:
-Herramientas, lenguajes de programación, módulos de los que se hará cargo.
-...
-Integrante n - usuario en github
-Responsabilidades dentro del equipo:
-Herramientas, lenguajes de programación, módulos de los que se hará cargo.
+—––1. Team InsanosGolosos - PROYECTO: CultGo! –––––
+
+Integrante 1 - Jesus Obed Cabrera Morales - MoralesJesus
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 2 - Gabriel Ezait Guzmán Rivera -GabrielEzaitGuzmanRivera140562
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 3 - Pedro Bolaños López - blpeter3014-hub
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 4 - Litzy Silva García - SugaarTea
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
 
 1. Propuesta general
-...
-2. Arquitectra y herramientas
-...
+
+La propuesta general es generar un mapa en donde la gente interesada en actividades dentro de la ciudad pueda encontrar los lugares donde se llevarán a cabo eventos culturales, como puede ser música, danza o talleres artísticos. Este facilitará la localización de los eventos dándole al usuario la ubicación de los mismos.
+
+Se pensó en este proyecto para poder reunir más a la gente en actividades culturales y fomentar el consumo local de arte.
+
+El proyecto estará enfocado en la ciudad de Oaxaca.
+
+2. Arquitectura y herramientas
+
+Una de las herramientas que se puede utilizar es Google Maps junto a JavaScript, aunque esta es una opción muy robusta, esto permite que la gente que ya está familiarizada con la herramienta no tenga dificultad al usar la página web. Para la parte del frontend podemos usar React.js, que es una librería excelente para información que cambia constantemente y esta nos facilita el crear componentes laterales para el usuario cuando este haga clic en un marcador. Para el backend podemos usar Node.js junto a PostgreSQL para cada una de las consultas de los usuarios al servidor. Estas no están completamente decididas, pero son las opciones más fáciles de manejar para un proyecto de este nivel.
+
+La parte más riesgosa del mismo sería el manejo de la información de los usuarios como el guardado de cuentas. La prueba se puede hacer simulando una muestra de datos para nuestro mapa y probándolo nosotros mismos desde nuestros dispositivos móviles.
+
+Tipo de IA: LLM mediante API en línea — por definir.
+
 4. Alcances
+
+Una parte mínima de lo que se podría entregar con el tiempo justo podría ser el interactuar con un mapa con datos recopilados de los eventos próximos sin un inicio de sesión y solamente navegación.
+
+Una parte extra para este proyecto podría ser un calendario de próximos eventos y el dónde se llevarán a cabo.
+
+Lo que se podría entregar sería una demo del código en la cual se muestre cómo funciona el mapa con los datos que recopilamos.
+
+Métricas mínimas: Por discutir.
+
+Retroalimentación
+
+* Medir la tasa de éxito del proyecto realizando pruebas con entre 5 y 10 personas en línea.
+* Analizar la posibilidad de utilizar GPS en tiempo real mediante una API para conocer qué tan cerca se encuentra el usuario de los eventos.
+* Agregar filtros para mostrar eventos cercanos a la localidad del usuario.
+* Considerar la fecha de los eventos para mostrar aquellos que estén próximos.
+* El proyecto estará adaptado a la ciudad de Oaxaca.
+* Utilizar un autenticador de Google para que los usuarios puedan iniciar sesión.
+* Considerar la implementación de un reproductor de música dentro de la página, con música de artistas locales.
+
 
 
 -------2. NOMBRE DEL EQUIPO 2 - PROYECTO 2----------
