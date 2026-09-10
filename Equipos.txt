@@ -79,5 +79,47 @@ Retroalimentación
 
 
 
--------2. NOMBRE DEL EQUIPO 2 - PROYECTO 2----------
-...
+-------2. Lostilines - PROYECTO: App chambitas----------
+Integrante 1 - Andres Mendoza Ramírez - Andy
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 2 - Adrián Delfín Ramírez - Ad
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 3 - Daniel Levoreiro Cruz - Levo
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 4 - Uriel García Bautista - Uriel
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+1. Propuesta general
+Personas que ofrecen oficios (plomeros, electricistas, carpinteros, etc.) sin presencia digital ni referencias conocidas pierden clientes frente a quienes ya tienen redes o reputación previa. Del lado del usuario, cuando alguien tiene un problema doméstico no sabe a quién llamar cerca de su casa ni si esa persona es confiable. Implementaríamos la IA mediante un chat en donde los usuarios escribirán sus problemas y botará resultados sugeridos con calificación y ubicación.
+
+Usuarios finales:
+Prestadores de oficios: personas que ofrecen sus servicios y quieren más alcance/clientes.
+Vecinos/clientes: personas de la colonia que necesitan resolver un problema (fuga de agua, corto circuito, etc.) y buscan a alguien cercano y confiable.
+
+Uno de los software que se puede parecer al nuestro es "Facebook Marketplace". El nuestro es muy local (colonia/municipio), usa IA conversacional para diagnosticar el problema (no solo buscar por categoría) y prioriza a prestadores sin visibilidad previa, no solo a los mejor calificados.
+
+2. Arquitectura y herramientas (todavía por definir).
+Tipo de IA: LLM (chat conversacional) para interpretar el problema en lenguaje natural y clasificarlo en una categoría de oficio; posiblemente RAG o function calling para cruzar la categoría con la base de datos de prestadores.
+Infraestructura: API en línea (ej. API de Claude u OpenAI) en lugar de modelo local
+Backend: Node.js/Express o Python/FastAPI (fácil integración con APIs de IA).
+Frontend: React o React Native si se va directo a móvil.
+Base de datos: PostgreSQL con extensión PostGIS (para consultas geoespaciales tipo "cerca de mí")
+
+3. Alcance y entregables
+Versión mínima (MVP): Usuario escribe su problema en un chat → la IA lo clasifica en un oficio → se muestra en un mapa una lista de 3-5 prestadores ficticios/reales cercanos con nombre, distancia y calificación simulada.}
+
+Entregables finales:
+Código fuente (repositorio).
+Demo en vivo o video de la app funcionando.
+
+Extras (si sobra tiempo):
+Expansión de colonia a municipio completo.
+Implementación de mapas (tipo google maps)
+
