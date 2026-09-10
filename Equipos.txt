@@ -122,4 +122,3 @@ Demo en vivo o video de la app funcionando.
 Extras (si sobra tiempo):
 Expansión de colonia a municipio completo.
 Implementación de mapas (tipo google maps)
-
