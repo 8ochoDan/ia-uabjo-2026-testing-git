@@ -122,3 +122,45 @@ Demo en vivo o video de la app funcionando.
 Extras (si sobra tiempo):
 Expansión de colonia a municipio completo.
 Implementación de mapas (tipo google maps)
+
+-------3. Wall-e - PROYECTO: Chatbot en realidad virtual----------
+
+Integrante 1 - Kelly Ariday Alberto Vigil - Kelly
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 2 - Betsaida Libertad Santiago Zamora - Betsa
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+Integrante 3 - Aydan Shamir Martinez Morales - Aydan
+Responsabilidades dentro del equipo: Por discutir.
+Herramientas, lenguajes de programación, módulos de los que se hará cargo: Por discutir.
+
+1. Propuesta general
+La propuesta general es tener un chatbot que ayude al usuario a entender lo que esta viendo con los lentes de realidad vitual que en este caso en una aplicacion que muestre las constelaciones y planetas.La aplicación ofrece una experiencia inmersiva mediante Realidad Virtual (RV) móvil que combina la proyección tridimensional de constelaciones y planetas con asistencia conversacional e informativa guiada por Inteligencia Artificial.
+
+Usuarios finales:
+Estudiantes y entusiastas de la astronomía: Personas interesadas en explorar el espacio de forma inmersiva desde su dispositivo móvil.
+
+Proyectos parecidos: Aplicaciones de mapas estelares en Realidad Aumentada como Stellarium, Star Walk o SkyMap.
+
+Diferenciador: Se enfoca en una experiencia totalmente inmersiva en Realidad Virtual complementada con un chatbot mediante un agente de IA. Este agente actúa como un guía interactivo capaz de responder explicar sobre los planetas y constelaciones observados en tiempo real, ofreciendo además un enfoque accesible y adaptado al ámbito educativo regional.
+
+2. Arquitectura y herramientas (todavía por definir).
+Tipo de IA: Voz (Text-to-Speech / Speech-to-Text): Módulos de síntesis de voz (Text-to-Speech) para convertir la respuesta del chatbot a audio y reconocimiento de voz (Speech-to-Text) para capturar los comandos del usuario.
+Infraestructura: Se utilizará una API en línea (como OpenAI API, Google Gemini API o ElevenLabs para voz) debido al procesamiento limitado de los dispositivos móviles Android y para garantizar la fluidez de la simulación en realidad virtual sin sobrecargar el hardware local.
+Frontend:Unity (C#) con soporte para Android VR / Google Cardboard SDK o Kotlin con OpenGL/Sceneform/ARCore, ideal para la renderización 3D y el entorno inmersivo.
+Backend: Node.js o Python (FastAPI) alojado en una instancia cloud (Render o AWS) para gestionar las peticiones de la IA y no exponer claves de API dentro de la APK.
+Base de datos: SQLite (local en la app) para el catálogo básico de cuerpos celestes (coordenadas, nombres, datos estáticos) y Firebase / PostgreSQL (remoto) para historial de consultas y configuración de usuarios. (AUN POR DISCUTIR)
+
+3. Alcance y entregables
+Versión mínima (MVP): Una aplicación para Android ejecutable con visores VR genéricos que muestre al menos un escenario con 3 planetas y 2 constelaciones en 3D, donde al enfocar un objeto durante un tiempo determinado se active un reproductor de audio con una explicación breve generada previamente o mediante una llamada rápida a la API.
+(ficticios/reales cercanos con nombre, distancia y calificación simulada.}
+
+Entregables finales:
+Código fuente (repositorio).
+Demo en vivo o video de la app funcionando.
+
+Extras (si sobra tiempo):
+Modo de exploración usando GPS en tiempo real para orientar el mapa estelar según la posición física exacta del usuario.
